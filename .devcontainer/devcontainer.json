@@ -35,7 +35,7 @@
 	  },
 	  "mounts": [
 		// map host ssh to container
-		"source=${env:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,consistency=cached"
+		"source=${env:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
 	  ]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
